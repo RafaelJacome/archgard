@@ -1,0 +1,72 @@
+#login-section {
+	background: url(../img/loginBG.jpg) no-repeat;
+	background-size: cover;
+	padding: 135px 0 145px;
+}
+
+.form-content {
+	width: 100%;
+	max-width: 860px;
+	padding: 67px 85px 75px;
+	background: rgba(255, 255, 255, 0.6);
+	margin: 0 auto;
+	border-radius: 15px;
+	box-sizing: border-box;
+	h1 {
+		font-size: 60px;
+		font-family: $principal;
+		text-transform: uppercase;
+		color: $gray-mate;
+		text-align: center;
+		margin: 0;
+		line-height: 1;
+		margin-bottom: 57px;
+	}
+}
+
+#login {
+	label {
+		font-family: $principal;
+		color: $gray-mate;
+		font-size: 30px;
+		display: block;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+
+	input[type="text"] {
+		padding: 30px 20px;
+		box-sizing: border-box;
+		width: 100%;
+		border-radius: 5px;
+		border: none;
+		outline: none;
+		margin-bottom: 76px;
+		font-family: $principal;
+		font-size: 20px;
+		color: $gray;
+	}
+
+	input[type="submit"] {
+		border: none;
+		outline: none;
+		background: $red;
+		color: $gray-mate;
+		width: 250px;
+		padding: 20px 0 18px;
+		text-align: center;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+		border-radius: 5px;
+		display: block;
+		margin: 8px auto 0;
+		transition: 0.4s;
+		&:hover {
+			transform: scale(1.1);
+		}
+		&:active {
+			transform: scale(1);
+		}
+	}
+}
